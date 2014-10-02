@@ -1,5 +1,15 @@
 -- blame https://github.com/KateAdams for the eecummings names
 
+--[[
+FAQ:
+
+Q: why's everything in the same module?
+A: because then we load it all in one go
+
+Q: why the do...ends?
+A: Lua has a limit of 200 locals/upvalues **per scope**, so we make new scopes to get more
+]]
+
 local m = {}
 
 do
