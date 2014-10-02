@@ -1,6 +1,6 @@
 -- blame https://github.com/KateAdams for the eecummings names
 
-local M = {}
+local m = {}
 
 do
   -- TODO
@@ -19,7 +19,7 @@ do
     }
   end
 
-  M.vector2 = function(x, y)
+  m.vector2 = function(x, y)
     local t = {
       x = x,
       y = y
